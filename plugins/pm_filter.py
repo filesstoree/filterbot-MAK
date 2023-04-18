@@ -274,6 +274,9 @@ async def next_page(bot, query):
 #         InlineKeyboardButton("Send All !", callback_data=f"send_fall#files#{key}#{offset}")
 #     ])
     btn.insert(0, [
+        InlineKeyboardButton("📁 𝐇𝐨𝐰 𝐓𝐨 𝐆𝐞𝐭 𝐅𝐢𝐥𝐞𝐬", url="t.me/MoviezAddaKan/58")
+    ])
+    btn.insert(0, [
         InlineKeyboardButton("⚡ Cʜᴇᴄᴋ Bᴏᴛ PM ⚡", url=f"https://t.me/{temp.U_NAME}")
     ])
     try:
@@ -1453,8 +1456,11 @@ async def auto_filter(client, msg, spoll=False):
                 ]
             )
 
+#     btn.insert(0, [
+#         InlineKeyboardButton("Send All !", callback_data=f"send_fall#{pre}#{message.chat.id}-{message.id}#{0}")
+#     ])
     btn.insert(0, [
-        InlineKeyboardButton("Send All !", callback_data=f"send_fall#{pre}#{message.chat.id}-{message.id}#{0}")
+        InlineKeyboardButton("📁 𝐇𝐨𝐰 𝐓𝐨 𝐆𝐞𝐭 𝐅𝐢𝐥𝐞𝐬", url="t.me/MoviezAddaKan/58")
     ])
 
     btn.insert(0, [
